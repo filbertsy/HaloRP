@@ -1,0 +1,28 @@
+
+name: Halo Resource Pack
+
+on:
+  push:
+    paths:
+      - "resource-pack/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload resource pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Halo-Resource-Pack
+          path: resource-pack/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 30
