@@ -1,0 +1,8 @@
+
+{
+  "pack": {
+    "description": "My first resource pack!",
+    "min_format": [97, 1],
+    "max_format": [97, 1]
+  }
+}
