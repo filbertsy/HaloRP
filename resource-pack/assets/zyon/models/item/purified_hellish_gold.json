@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "zyon:item/hellish_gold"
+    "layer0": "zyon:item/purified_hellish_gold"
   }
 }
