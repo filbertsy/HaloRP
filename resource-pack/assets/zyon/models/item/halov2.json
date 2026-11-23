@@ -4,7 +4,7 @@
 	"parent": "item",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "zyon:item/halo"
+		"0": "zyon:item/halov2"
 	},
 	"elements": [
 		{
